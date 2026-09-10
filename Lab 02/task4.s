@@ -3,7 +3,6 @@ li x5, 2                # a = 2
 li x6, 3                # b = 3
 li x10, 0x100           # Base address of D
 
-
 outer_loop:
     bge x7, x5, end_outer   # if i >= a, exit outer loop
     li x29, 0               # j = 0

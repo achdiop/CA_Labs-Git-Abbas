@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/abbas/Vivado/CA Labs/Lab 05/Lab 05.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 05/Lab 05.srcs/sim_1/new/tb_top_fsm.v,1790531039,verilog,,,,tb_top_fsm,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/clock_divider.v,1790531289,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/debouncer.v,,clock_divider,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/debouncer.v,1790528604,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/leds.v,,debouncer,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/leds.v,1790528604,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/skeleton_top_fsm.v,,leds,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/skeleton_top_fsm.v,1790530347,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/switches.v,,top_fsm_system,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 05/srcs/switches.v,1790528604,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 05/Lab 05.srcs/sim_1/new/tb_top_fsm.v,,switches,,,,,,,,

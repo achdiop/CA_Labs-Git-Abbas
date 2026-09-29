@@ -25,8 +25,8 @@ module clock_divider (
     // TEMPORARILY CHANGED FOR SIMULATION ONLY!
     // Change this back to 50_000_000 - 1 before programming the board!
   
-    localparam MAX_COUNT = 2;	// comment out for simulation
-//    localparam MAX_COUNT = 50_000_000 - 1;	//comment out for hw impl
+//    localparam MAX_COUNT = 2;	// comment out for simulation
+    localparam MAX_COUNT = 50_000_000 - 1;	//comment out for hw impl
 
     always @(posedge clk_in) begin
         if (rst) begin

@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/abbas/Vivado/CA Labs/Lab 06/Lab 06.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 06/Lab 06.srcs/sim_1/new/tb_ALU_32bit.v,1791225191,verilog,,,,tb_ALU_32bit,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 06/Lab 06.srcs/sources_1/new/ALU_1bit.v,1791212836,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 06/Lab 06.srcs/sources_1/new/ALU_32bit.v,,ALU_1bit,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 06/Lab 06.srcs/sources_1/new/ALU_32bit.v,1791213047,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 06/Lab 06.srcs/sim_1/new/tb_ALU_32bit.v,,ALU_32bit,,,,,,,,

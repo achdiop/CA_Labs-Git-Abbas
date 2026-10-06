@@ -1,0 +1,13 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Starting ALU Simulation...
+Time=0 | ALUControl=0000 | A=10101010 | B=01010101 | ALUResult=00000000 | Zero=1
+Time=10000 | ALUControl=0001 | A=10101010 | B=01010101 | ALUResult=11111111 | Zero=0
+Time=20000 | ALUControl=0010 | A=10101010 | B=01010101 | ALUResult=11111111 | Zero=0
+Time=30000 | ALUControl=0011 | A=10101010 | B=01010101 | ALUResult=11111111 | Zero=0
+Time=40000 | ALUControl=0100 | A=10101010 | B=01010101 | ALUResult=20202020 | Zero=0
+Time=50000 | ALUControl=0101 | A=10101010 | B=01010101 | ALUResult=08080808 | Zero=0
+Time=60000 | ALUControl=0110 | A=10101010 | B=01010101 | ALUResult=0f0f0f0f | Zero=0
+Time=70000 | ALUControl=0110 | A=10101010 | B=10101010 | ALUResult=00000000 | Zero=1
+Simulation Complete.
+$finish called at time : 80 ns : File "C:/Users/abbas/Vivado/CA Labs/Lab 06/Lab 06.srcs/sim_1/new/tb_ALU_32bit.v" Line 65

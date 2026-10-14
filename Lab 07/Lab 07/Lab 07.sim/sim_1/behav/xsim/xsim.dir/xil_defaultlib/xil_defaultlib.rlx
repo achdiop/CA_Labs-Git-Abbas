@@ -1,0 +1,14 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sim_1/new/RF_ALU_FSM_tb.v,1791312779,verilog,,,,RF_ALU_FSM_tb,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sim_1/new/RegisterFile_tb.v,1791305945,verilog,,,,RegisterFile_tb,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/ALU_1bit.v,1791297681,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/ALU_32bit.v,,ALU_1bit,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/ALU_32bit.v,1791294440,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/RegisterFile.v,,ALU_32bit,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/RegisterFile.v,1791305881,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sim_1/new/RF_ALU_FSM_tb.v,,RegisterFile,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/debouncer.v,1790528604,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/leds.v,,debouncer,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/leds.v,1790528604,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/switches.v,,leds,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/skeleton_top_fsm.v,1791297601,verilog,,,,top_fsm_system,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/switches.v,1790528604,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/skeleton_top_fsm.v,,switches,,,,,,,,

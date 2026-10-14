@@ -1,0 +1,18 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Init x1: Wrote 10101010
+Init x2: Wrote 01010101
+Init x3: Wrote 00000005
+ADD Test (x1+x2): Wrote 11111111 to x4  (Expected: 11111111)
+SUB Test (x1-x2): Wrote 0f0f0f0f to x5  (Expected: 0F0F0F0F)
+AND Test (x1&x2): Wrote 00000000 to x6  (Expected: 00000000)
+OR  Test (x1|x2): Wrote 11111111 to x7  (Expected: 11111111)
+XOR Test (x1^x2): Wrote 11111111 to x8  (Expected: 11111111)
+SLL Test (x1<<5): Wrote 02020200 to x9  (Expected: 20202020)
+SRL Test (x1>>5): Wrote 00808080 to x10 (Expected: 00808080)
+BEQ Test (x1==x1): Zero Flag = 1, Flag Reg x11 Write Enable = 1
+RAW Test: Wrote 0000beef to x12
+RAW Test: Read  x12 = 0000beef (Expected: 0000BEEF)
+
+--- All operations done. Simulation finished. ---
+$finish called at time : 535 ns : File "C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sim_1/new/RF_ALU_FSM_tb.v" Line 89

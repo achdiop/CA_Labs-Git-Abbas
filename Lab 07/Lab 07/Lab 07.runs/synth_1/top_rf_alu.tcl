@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.runs/synth_1/top_rf_alu.tcl"
+  variable script "C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.runs/synth_1/top_rf_alu.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,33 +70,30 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
-set_param synth.incrementalSynthesisCache C:/Users/abbas/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-16264-Abbas-Lappy/incrSyn
+set_param chipscope.maxJobs 5
+set_param xicom.use_bs_reader 1
 set_msg_config -id {Common 17-41} -limit 10000000
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.cache/ip} [current_project]
+set_property ip_output_repo {c:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/ALU_1bit.v}
-  {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/ALU_32bit.v}
-  {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/RegisterFile.v}
-  {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/debouncer.v}
-  {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/leds.v}
-  {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/switches.v}
-  {C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/sources_1/new/top_rf_alu.v}
+  {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/sources_1/new/ALU_1bit.v}
+  {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/sources_1/new/ALU_32bit.v}
+  {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/sources_1/new/RegisterFile.v}
+  {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/sources_1/new/debouncer.v}
+  {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/sources_1/new/switches.v}
+  {C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/sources_1/new/top_rf_alu.v}
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -107,8 +104,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/constrs_1/new/pin_map.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.srcs/constrs_1/new/pin_map.xdc}}]
+read_xdc {{C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/constrs_1/new/pin_map.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.srcs/constrs_1/new/pin_map.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

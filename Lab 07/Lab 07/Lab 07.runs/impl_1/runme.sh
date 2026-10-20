@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/abbas/Vivado/CA Labs/Lab 07/Lab 07.runs/impl_1'
+HD_PWD='C:/Users/sk11236/Downloads/OneDrive_2026-10-14/Lab 07/Lab 07.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log top_rf_alu.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source top_rf_alu.tcl -notrace
 
 

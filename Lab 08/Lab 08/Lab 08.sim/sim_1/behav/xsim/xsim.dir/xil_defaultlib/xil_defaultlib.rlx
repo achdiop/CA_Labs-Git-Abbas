@@ -1,0 +1,16 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sim_1/new/memory_testbench.v,1792615259,verilog,,,,memory_testbench,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/ALU_1bit.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/ALU_32bit.v,,ALU_1bit,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/ALU_32bit.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/Address_Decoder.v,,ALU_32bit,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/Address_Decoder.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/DataMemory.v,,Address_Decoder,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/DataMemory.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/RegisterFile.v,,DataMemory,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/RegisterFile.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/addressDecoder.v,,RegisterFile,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/addressDecoder.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/debouncer.v,,addressDecoderTop,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/debouncer.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/leds.v,,debouncer,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/leds.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/switches.v,,leds,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/switches.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/top_rf_alu.v,,switches,,,,,,,,
+C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sources_1/new/top_rf_alu.v,1792615259,verilog,,C:/Users/abbas/Vivado/CA Labs/Lab 08/Lab 08.srcs/sim_1/new/memory_testbench.v,,top_rf_alu,,,,,,,,

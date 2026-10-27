@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 28 01:25:33 2026
+# Process ID: 8396
+# Current directory: C:/Users/abbas/Vivado/CA Labs/Lab 09/Lab 09.runs/impl_1
+# Command line: vivado.exe -log top_level_control.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_level_control.tcl -notrace
+# Log file: C:/Users/abbas/Vivado/CA Labs/Lab 09/Lab 09.runs/impl_1/top_level_control.vdi
+# Journal file: C:/Users/abbas/Vivado/CA Labs/Lab 09/Lab 09.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_level_control.tcl -notrace
